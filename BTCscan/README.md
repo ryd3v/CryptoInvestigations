@@ -4,16 +4,20 @@ Website: https://gist.github.com/chriswcohen/7e28c95ba7354a986c34
 Donations: 1BnvsBZcyVxF8L8HboUcDc2mAUu9K2qsTe
 Accompanying Article: http://articles.forensicfocus.com/2015/01/15/forensics-bitcoin/
 
-Searches a file or all files within a folder including subfolders for Bitcoin
+Searches a file or all files within a folder including sub-folders for Bitcoin
 related Base58Check encoded strings.
 
 
-BTCscan.py [-i/--input=][drive:][path][filename] [args]
+`BTCscan.py [-i/--input=][drive:][path][filename] [args]`
 
--i / --input       Specifies drive, directory, and/or files to search
--q / --quick       Quick mode, does not search BIP32 HD walllet keys
--u / --unicode     Unicode mode, only search for unicoded items
--n / --nonunicode  Non-unicode mode, only search for non-unicoded items
+-i / --input Specifies drive, directory, and/or files to search
+
+-q / --quick Quick mode, does not search BIP32 HD wallet keys
+
+-u / --unicode Unicode mode, only search for uni-coded items
+
+-n / --non-unicode  Non-unicode mode, only search for non-uni-coded items
+
 -h / --help        Prints this page
 
 Examples:
